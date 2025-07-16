@@ -1,3 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-size: 16px;
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 :root {
     --primary-color: darkblue;
     --secondary-color: #eee;
@@ -28,22 +40,35 @@ nav a {
 
 h1 {
     color: var(--primary-color);
+    padding: 1rem;
 }
 
 img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: var(--img-border);
     padding: 2px;
     box-shadow: 0 0 30px var(--shadow-color);
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
 }
 
 p {
+    margin: 1rem;
     padding: var(--padding-small);
+    
 }
 
 main {
     max-width: var(--max-width-main);
+}
+
+aside p {
+    text-align: center;
+    padding: 1rem;
+    margin: auto
 }
 
 aside {
@@ -57,12 +82,21 @@ aside {
 }
 
 aside img {
+    float: none;
     width: 200px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+aside h2 {
+    position: relative;
+    top: 1px;
+    left: 1px;
 }
 
 main img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
@@ -71,3 +105,16 @@ footer {
     border-top: 1px solid var(--border-color);
     text-align: center;
 }
+
+/* Class Selectors */
+.box {
+    clear: both;
+    margin-top: 1rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / .1);
+    padding: 1rem;
+    padding-left: 2rem;
+    background-color: #eee;
+    color: #000;
+}
+
