@@ -1,14 +1,9 @@
 :root {
-    --primary-color: #F96D10;
-    /* pumpkin */
-    --secondary-color: #F5DC00;
-    /* citrine */
-    --accent1-color: #ECEBE9;
-    /* platinum */
-    --accent2-color: #63CFAF;
-    /* turquoise */
-    --text-color: #333;
-    /* dark gray for readability */
+    --primary-color: #1E90FF; /* Dodger Blue for better contrast */
+    --secondary-color: #FFD700; /* Golden Yellow */
+    --accent1-color: #F0F8FF; /* Alice Blue */
+    --accent2-color: #32CD32; /* Lime Green */
+    --text-color: #2F4F4F; /* Dark Slate Gray for better readability */
     --heading-font: "Bebas Neue", sans-serif;
     --body-font: "Open Sans", sans-serif;
 }
@@ -156,7 +151,7 @@ nav a:focus {
 
 .adventure-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
     gap: 16px;
 }
 
@@ -167,7 +162,8 @@ nav a:focus {
 .adventures img {
     width: 100%;
     border-radius: 6px;
-    height: auto;
+    height: 200px;
+    object-fit: cover;
 }
 
 figcaption {
