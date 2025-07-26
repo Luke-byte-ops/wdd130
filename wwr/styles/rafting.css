@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #1E90FF; /* Dodger Blue for better contrast */
+    --primary-color: #b6a2d8; /* Dodger Blue*/
     --secondary-color: #FFD700; /* Golden Yellow */
     --accent1-color: #F0F8FF; /* Alice Blue */
     --accent2-color: #32CD32; /* Lime Green */
-    --text-color: #2F4F4F; /* Dark Slate Gray for better readability */
+    --text-color: #2F4F4F; /* Dark Slate Gray*/
     --heading-font: "Bebas Neue", sans-serif;
     --body-font: "Open Sans", sans-serif;
 }
@@ -30,10 +30,10 @@ footer {
 
 header {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: 1fr auto 1fr ;
     align-items: center;
     background-color: var(--primary-color);
-    color: #fff;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     max-width: 840px;
     margin: 0 auto;
@@ -48,7 +48,7 @@ h2 {
 }
 
 h2 {
-    color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .hero h1 {
@@ -115,6 +115,10 @@ section {
     max-width: 70%;
 }
 
+.hero article h2{
+    color: var(--accent1-color);
+}
+
 .hero article img {
     float: right;
     width: 125px;
@@ -124,10 +128,11 @@ section {
 }
 
 nav a {
-    color: #fff;
+    color: black;
     font-weight: bold;
     text-decoration: none;
     padding: 0 10px;
+    font-size: large;
 }
 
 nav a:hover,
