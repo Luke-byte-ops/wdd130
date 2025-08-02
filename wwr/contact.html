@@ -1,109 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us | River Raft Adventures</title>
-  <meta name="description" content="Contact River Raft Adventures for inquiries or reservations.">
-  <meta name="author" content="Luke Howard">
-  <link rel="stylesheet" href="styles/rafting.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
-  <!-- Code injected by Five-server -->
-  <script async data-id="five-server" data-file="c:\Users\lukeh\OneDrive\Desktop\BYU\Term 4\wdd130\wwr\contact.html" src="/fiveserver.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | River Raft Adventures</title>
+    <meta name="description" content="Contact River Raft Adventures for inquiries or reservations.">
+    <meta name="author" content="Luke Howard">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script async data-id="five-server" data-file="c:\Users\lukeh\OneDrive\Desktop\BYU\Term 4\wdd130\wwr\contact.html"
+        src="/fiveserver.js"></script>
 </head>
+
 <body>
-  <header>
-    <img src="images/rafting_logo.webp" alt="Rafting Company Logo" width="80" height="80" loading="lazy">
-    <h1>River Raft Adventures</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="trips.html">Trips</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <img src="images/rafting_logo.webp" alt="Rafting Company Logo" width="80" height="80" loading="lazy">
+        <h1>River Raft Adventures</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main>
-    <section class="contact-info">
-      <h2>Contact Information</h2>
-      <p>123 River Rapids Rd, Adventure City, CO 80000</p>
-      <p>Phone: (123) 456-7890</p>
-      <p>Email: info@riverraftadventures.com</p>
-      <iframe
-        title="Map showing River Raft Adventures location"
-        src="https://www.google.com/maps/embed?pb=..."
-        height="300"
-        loading="lazy"
-        style="border:0; width: 100%;"
-        allowfullscreen
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>123 River Rapids Rd, Adventure City, CO 80000</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@riverraftadventures.com</p>
+            <iframe title="Map showing River Raft Adventures location" src="https://www.google.com/maps/embed?pb=..."
+                height="300" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+                class="map-iframe"></iframe>
 
-    <section class="employees">
-      <h2>Meet Our Team</h2>
-      <div class="employees-figures">
-        <figure>
-          <img src="images/employee-sarah.webp" alt="Sarah – Reservation Specialist" loading="lazy">
-          <figcaption>Sarah – Reservation Specialist</figcaption>
-        </figure>
-        <figure>
-          <img src="images/employee-mike.webp" alt="Mike – River Guide" loading="lazy">
-          <figcaption>Mike – River Guide</figcaption>
-        </figure>
-        <figure>
-          <img src="images/employee-lisa.webp" alt="Lisa – Customer Support" loading="lazy">
-          <figcaption>Lisa – Customer Support</figcaption>
-        </figure>
-      </div>
-    </section>
+        </section>
 
-    <section class="contact-form">
-      <h2>Send Us a Message</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required placeholder="Your name">
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <div class="employees-figures">
+                <figure>
+                    <img src="images/employee-sarah.webp" alt="Sarah – Reservation Specialist" loading="lazy">
+                    <figcaption>Sarah – Reservation Specialist</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-mike.webp" alt="Mike – River Guide" loading="lazy">
+                    <figcaption>Mike – River Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-lisa.webp" alt="Lisa – Customer Support" loading="lazy">
+                    <figcaption>Lisa – Customer Support</figcaption>
+                </figure>
+            </div>
+        </section>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required placeholder="Your email">
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Your name">
 
-        <fieldset class="radio-group">
-          <legend>Purpose</legend>
-          <label for="purpose-inquiry">
-            <input type="radio" id="purpose-inquiry" name="purpose" value="inquiry"> General Inquiry
-          </label>
-          <label for="purpose-reservation">
-            <input type="radio" id="purpose-reservation" name="purpose" value="reservation"> Reservation Question
-          </label>
-          <label for="purpose-suggestion">
-            <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion"> Website Suggestion
-          </label>
-        </fieldset>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Your email">
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required placeholder="Your message"></textarea>
+                <fieldset class="radio-group">
+                    <legend>Purpose</legend>
+                    <label for="purpose-inquiry">
+                        <input type="radio" id="purpose-inquiry" name="purpose" value="inquiry"> General Inquiry
+                    </label>
+                    <label for="purpose-reservation">
+                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation"> Reservation
+                        Question
+                    </label>
+                    <label for="purpose-suggestion">
+                        <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion"> Website
+                        Suggestion
+                    </label>
+                </fieldset>
 
-        <div class="checkbox-group">
-          <input type="checkbox" id="subscribe" name="subscribe">
-          <label for="subscribe">Subscribe to monthly newsletter</label>
-        </div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required placeholder="Your message"></textarea>
 
-        <button type="submit">Send message</button>
-      </form>
-    </section>
-  </main>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Subscribe to monthly newsletter</label>
+                </div>
 
-  <footer>
-    <p>&copy; 2025 River Raft Adventures | Luke Howard</p>
-    <nav class="socialmedia">
-      <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook Logo" loading="lazy"></a>
-      <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram Logo" loading="lazy"></a>
-      <a href="https://pinterest.com"><img src="images/pinterest.svg" alt="Pinterest Logo" loading="lazy"></a>
-    </nav>
-    <p><a href="https://app.moqups.com/CJiIf508OIQ2TSV8zdYmKeirdgqaTLyJ/view/page/ad64222d5" target="_blank">View Wireframe</a></p>
-  </footer>
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 River Raft Adventures | Luke Howard</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook Logo" loading="lazy"></a>
+            <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram Logo" loading="lazy"></a>
+            <a href="https://pinterest.com"><img src="images/pinterest.svg" alt="Pinterest Logo" loading="lazy"></a>
+        </nav>
+        <p><a href="https://app.moqups.com/CJiIf508OIQ2TSV8zdYmKeirdgqaTLyJ/view/page/ad64222d5" target="_blank">View
+                Wireframe</a></p>
+    </footer>
 </body>
+
 </html>
