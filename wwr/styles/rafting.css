@@ -123,14 +123,12 @@ footer .wireframe-link {
     margin-bottom: 1rem;
 }
 
-/* New wrapper div flex container for the employee figures */
 .employees-figures {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
 }
 
-/* Each figure styles */
 .employees-figures figure {
     flex: 1;
     text-align: center;
@@ -152,7 +150,6 @@ footer .wireframe-link {
     font-weight: bold;
 }
 
-/* Form Styles */
 .contact-form form {
     display: flex;
     flex-direction: column;
@@ -179,7 +176,6 @@ footer .wireframe-link {
     min-height: 100px;
 }
 
-/* Radio button group */
 .radio-group {
     display: flex;
     justify-content: space-around;
@@ -197,14 +193,12 @@ footer .wireframe-link {
     margin-right: 0.4rem;
 }
 
-/* Checkbox */
 .contact-form .checkbox-group {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
 
-/* Submit Button */
 .contact-form button {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
