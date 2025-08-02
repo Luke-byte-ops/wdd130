@@ -51,15 +51,15 @@
             <h2>Meet Our Team</h2>
             <div class="employees-figures">
                 <figure>
-                    <img src="images/employee-sarah.png" alt="Sarah – Reservation Specialist">
+                    <img src="images/employee-sarah.webp" alt="Sarah – Reservation Specialist">
                     <figcaption>Sarah – Reservation Specialist</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/employee-mike.png" alt="Mike – River Guide">
+                    <img src="images/employee-mike.webp" alt="Mike – River Guide">
                     <figcaption>Mike – River Guide</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/employee-lisa.png" alt="Lisa – Customer Support">
+                    <img src="images/employee-lisa.webp" alt="Lisa – Customer Support">
                     <figcaption>Lisa – Customer Support</figcaption>
                 </figure>
             </div>
@@ -76,10 +76,19 @@
                 <input type="email" id="email" name="email" placeholder="Your email" required>
 
                 <div class="radio-group">
-                    <label><input type="radio" name="purpose" value="inquiry"> General Inquiry</label>
-                    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+                    <label for="purpose-inquiry">
+                        <input type="radio" id="purpose-inquiry" name="purpose" value="inquiry"> General Inquiry
+                    </label>
+                    <label for="purpose-reservation">
+                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation"> Reservation
+                        Question
+                    </label>
+                    <label for="purpose-suggestion">
+                        <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion"> Website
+                        Suggestion
+                    </label>
                 </div>
+
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" placeholder="Your message" required></textarea>
