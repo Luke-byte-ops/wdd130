@@ -202,7 +202,7 @@ footer .wireframe-link {
 .contact-form button {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
-    background-color: #0077cc;
+    background-color: #004a99;
     color: white;
     border: none;
     border-radius: 5px;
@@ -213,5 +213,5 @@ footer .wireframe-link {
 }
 
 .contact-form button:hover {
-    background-color: #005fa3;
+    background-color: green;
 }
